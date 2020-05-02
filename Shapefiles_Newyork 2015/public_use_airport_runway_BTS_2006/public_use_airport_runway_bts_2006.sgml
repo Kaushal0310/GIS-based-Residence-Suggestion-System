@@ -1,0 +1,760 @@
+<!DOCTYPE METADATA PUBLIC "-//FGDC//DTD METADATA 2.0//EN">
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Federal Aviation Administration</origin>
+<origin>Research and Innovative Technology Administration&apos;s Bureau of Transportation Statistics (RITA/BTS)</origin>
+<pubdate>2006</pubdate>
+<title>Public Use Airport Runways, Geographic WGS84, BTS (2006) [public_use_airport_runway_BTS_2006]</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Washington, DC</pubplace>
+<publish>Research and Innovative Technology Administration&apos;s Bureau of Transportation Statistics (RITA/BTS)</publish>
+</pubinfo>
+<onlink>http://lagic.lsu.edu/data/losco/public_use_airport_runway_BTS_2006.zip</onlink>
+<lworkcit>
+<citeinfo>
+<origin>Research and Innovative Technology Administration&apos;s Bureau of Transportation Statistics (RITA/BTS)</origin>
+<pubdate>2006</pubdate>
+<title>National Transportation Atlas Databases (NTAD) 2006</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Washington, DC</pubplace>
+<publish>Research and Innovative Technology Administration&apos;s Bureau of Transportation Statistics (RITA/BTS)</publish>
+</pubinfo>
+<onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The Public Use Airport Runways database is a geographic dataset of runways in the United States and US territories containing information on the physical characteristics of the runways. The 5527 runways in the dataset are runways associated with the 20362 airports in the companion airport data set.  This geospatial data is derived from the FAA&apos;s National Airspace System Resource Aeronautical Data Product (Effective 16 February 2006).</abstract>
+<purpose>This data provides users with information about the runway locations and attributes for national and regional analysis applications.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2006</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Annually</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-177.392892</westbc>
+<eastbc>171.282611</eastbc>
+<northbc>71.285449</northbc>
+<southbc>-14.340505</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>polyline</themekt>
+<themekey>Transportation</themekey>
+<themekey>runways</themekey>
+<themekey>airports</themekey>
+<themekey>aircraft</themekey>
+<themekey>landing</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>United States</placekey>
+<placekey>US</placekey>
+<placekey>USA</placekey>
+<placekey>US Territories</placekey>
+</place>
+<stratum>
+<stratkt>none</stratkt>
+<stratkey>ground</stratkey>
+</stratum>
+<temporal>
+<tempkt>none</tempkt>
+<tempkey>2006</tempkey>
+</temporal>
+</keywords>
+<accconst>None</accconst>
+<useconst>None.  Acknowledgment of the Federal Aviation Administration (FAA) and the Research and Innovative Technology Administration&apos;s Bureau of  Transportation Statistics (RITA/BTS) National Transportation Atlas Databases (NTAD) 2006 would be appreciated in products derived from these data.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Federal Aviation Administration (Aeronautical Information Services, ATA-100)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>FAA National Headquarters</address>
+<address>800 Independence Avenue, S.W.</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20591</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>1-800-457-6656 x35442</cntvoice>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>&lt;URL: public_use_airport_runway_BTS_2006.gif&gt;</browsen>
+<browset>GIF</browset>
+</browse>
+<datacred>The Federal Aviation Administration (FAA) develops and maintains the textual data from which this geospatial layer was derived.</datacred>
+<secinfo>
+<secclass>Unclassified</secclass>
+</secinfo>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
+<crossref>
+<citeinfo>
+<origin>Research and Innovative Technology Administration&apos;s Bureau of Transporation Statistics (RITA/BTS)</origin>
+<pubdate>2006</pubdate>
+<title>National Transportation Atlas Databases (NTAD) 2006</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Washington, DC</pubplace>
+<publish>Research and Innovative Technology Administration&apos;s Bureau of Transportation Statistics (RITA/BTS)</publish>
+</pubinfo>
+<onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
+<lworkcit>
+<citeinfo>
+<pubinfo></pubinfo>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Data were obtained from the Federal Aviation Administration&apos;s (FAA) National Airspace System Resource Aeronautical Data.  This product was published by the Aeronautical Information Services with an Effective Date of 16 February 2006.</attraccr>
+<qattracc>
+<attraccv>unknown</attraccv>
+</qattracc>
+</attracc>
+<logic>
+All linear features in this data set are straight lines.  RWY_ID is the unique identifier for each record in the dataset.  There may be more than one runway (RWY_ID) located at a single airport.  Airports can be individually identified by the landing facility location identifier (LOCID) or by the site number (SITE_NO) attribute.
+
+RITA/BTS quality checks were to cross reference the place dataset with the state dataset, to determine that the spatial data and attribute data were accurate
+</logic>
+<complete>Landing facilities in this database consist of those identified in the NFDC 5527 database to be either publicly owned, or privately owned but open to the public, or owned by the U.S. military.  The following landing facilities have been excluded:  private landing facilities not open to the public, glider ports and ultra light landing facilities, as well as landing facilities that do not have a current LOCID assigned to them.</complete>
+<posacc>
+<horizpa>
+<horizpar>Horizontal positional accuracy is based on coordinate data provided in the FAA National Airspace System Resource Aeronautical Dataset (Effective 16 February 2006).  These coordinate data identify the approximate location of the Airport Reference Point (ARP) as reported by the landing facility on the NFDC (National Flight Data Center) 5010 form.  According to NFDC guidelines, the location of the ARP should be reported to a horizontal accuracy of one arc second of latitude and longitude.  However, the accuracy of these reported coordinates are not verified by FAA.</horizpar>
+<qhorizpa>
+<horizpav>unknown</horizpav>
+</qhorizpa>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Federal Aviation Administration</origin>
+<pubdate>2006</pubdate>
+<title>FAA National Airspace System Resource Aeronautical Data</title>
+<edition>FAA National Airspace System Resource Aeronautical Data (Effective 21 February 2002)</edition>
+<geoform>tabular digital data</geoform>
+<pubinfo>
+<pubplace>Washington, DC</pubplace>
+<publish>Federal Aviation Administration (FAA)</publish>
+</pubinfo>
+<lworkcit>
+<citeinfo>
+<origin>Research and Innovative Technology Administration&apos;s Bureau of Transportation Statistics (RITA/BTS)</origin>
+<pubdate>2006</pubdate>
+<title>National Transportation Atlas Databases (NTAD) 2006</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Washington, DC</pubplace>
+<publish>Research and Innovative Technology Administration&apos;s Bureau of Transportation Statistics (RITA/BTS)</publish>
+</pubinfo>
+<onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</srccite>
+<typesrc>CD-ROM</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2006</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>FAA-NASRAD</srccitea>
+<srccontr>Data were obtained from the Federal Aviation Administration&apos;s (FAA) National Airspace System Resource Aeronautical Data.  This product was published by the Aeronautical Information Services with an Effective Date of 16 February 2006.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>The creation of this geospatial data layer was completed by RITA/BTS in April 2006. This Shapefile was derived from textual data on the FAA National Airspace System Resource Aeronautical Data CDROM, effective 16 February 2006.   The Apt.txt file was converted into three files using the UNIX command grep.  The runway table structure was built in Oracle that followed the structure of the facility runway data described in the Apt_rf.txt file.  A control file was built for the desired runway data structure and SQL Loader was used to load the data into the database.  The degrees, minutes, and seconds&apos; columns were converted into decimal degrees and ESRI products were used to create the runway linear dataset.</procdesc>
+<srcused>FAA-NASRAD</srcused>
+<procdate>2006</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Research and Innovative Technology Administration&apos;s Bureau of Transportation Statistics (RITA/BTS)</cntorg>
+<cntper>Geospatial Information Program</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>400 7th Street, SW Room 4117</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20590</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>202-366-DATA</cntvoice>
+<cntfax>202-366-3640</cntfax>
+<cntemail>answers@bts.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Dataset moved.</procdesc>
+<srcused>data\infrastructure\public_use_airport_runway\public_use_airport_runway_BTS_2006</srcused>
+</procstep>
+<procstep>
+<procdesc>Dataset moved.</procdesc>
+<srcused>data\infrastructure\public_use_airport_runway_BTS_2006</srcused>
+</procstep>
+<procstep>
+<procdesc>Dataset copied.</procdesc>
+<srcused>data\transportation.mdb</srcused>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>String</sdtstype>
+<ptvctcnt>5527</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.000001</latres>
+<longres>0.000001</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>D_WGS_1984</horizdn>
+<ellips>WGS_1984</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257224</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>runways</enttypl>
+<enttypd>Runways of the United States and its territories in GIS format.</enttypd>
+<enttypds>Research and Innovative Technology Administration&apos;s Bureau of Transportation Statistics (RITA/BTS)</enttypds>
+</enttyp>
+<attr>
+<attrlabl>REVISION</attrlabl>
+<attrdef>REVISION is a 2-digit number that will be incremented individually for each record whenever a change is made to one of its fields.</attrdef>
+<attrdefs>RITA/BTS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>00</rdommin>
+<rdommax>99</rdommax>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Polyline</edomv>
+<edomvd>Polylinear Shapes as defined by ArcView</edomvd>
+<edomvds>ArcView Internal Attribute</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LOCID</attrlabl>
+<attrdef>A unique 3-4 character identifier assigned to the landing facility (i.e. airport).</attrdef>
+<attrdefs>FAA</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>List of Official LOCID Codes</codesetn>
+<codesets>FAA</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>FULLNAME</attrlabl>
+<attrdef>Official name of the runway&apos;s airport.</attrdef>
+<attrdefs>FAA</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>List of Official Airport Names</codesetn>
+<codesets>FAA</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>UNIQUE_ID</attrlabl>
+<attrdef>Site number concatenate with the Runway ID</attrdef>
+<attrdefs>RITA/BTS</attrdefs>
+<attrdomv>
+<udom>Character String</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SITE_NO</attrlabl>
+<attrdef>A unique identifying number followed by an asterisk and the &apos;landing facility type&apos; code.  The SITE_NO forms the key to the airport records in the NFDC (5010) database.  Example: 04508.*A</attrdef>
+<attrdefs>FAA</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>List of Official Airport Site Numbers</codesetn>
+<codesets>FAA</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>FAA_ST</attrlabl>
+<attrdef>Airport&apos;s associated state or territory name.</attrdef>
+<attrdefs>FAA</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas, FIPS 5-2.</codesetn>
+<codesets>U.S. Department of Commerce, National Institute of Standards and Technology</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>RWY_ID</attrlabl>
+<attrdef>Runway unique identification code. For example: 01/19; 18L/36R (parallel runways); H1 (helipad); N/S (north/south); ALL/WAY (sealane); B1 (baloonport).</attrdef>
+<attrdefs>FAA</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>List of Official Runway Codes</codesetn>
+<codesets>FAA</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>RWY_LEN</attrlabl>
+<attrdef>The physical runway length, to the nearest foot.  (Ex. 3500)</attrdef>
+<attrdefs>FAA</attrdefs>
+<attrdomv>
+<udom>measured value</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>RWY_WITH</attrlabl>
+<attrdef>The physical runway width, to the nearest foot. (Ex. 100)</attrdef>
+<attrdefs>FAA</attrdefs>
+<attrdomv>
+<udom>measured value</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>RWY_SFC_TY</attrlabl>
+<attrdef>Runway surface type and condition.  (NOTE 1:  Surface type can have one entry or a combination of two entries when the runway is composed of distinct sections.)  (NOTE 2:  The surface type is optionally followed by a condition indicator:  G=Good Condition, F=Fair Condition, P=Poor Condition.  Some valid examples for this attribute:  ASPH-CONC, ASPH-F, ASPH-CONC-G)</attrdef>
+<attrdefs>FAA</attrdefs>
+<attrdomv>
+<edom>
+<edomv>CONC</edomv>
+<edomvd>Portland cement concrete</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>ASPH</edomv>
+<edomvd>Asphalt or bituminous concrete</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>SNOW</edomv>
+<edomvd>Snow</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>ICE</edomv>
+<edomvd>Ice</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>MATS</edomv>
+<edomvd>Pierced steel planking; landing mats; membranes</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>TREATED</edomv>
+<edomvd>Oiled; soil cement or lime stabilized</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>GRAVEL</edomv>
+<edomvd>Gravel; cinders; crushed rock; coral or shells; slag</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>TURF</edomv>
+<edomvd>Grass; sod</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>DIRT</edomv>
+<edomvd>Natural soil</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>WATER</edomv>
+<edomvd>Water</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>RWY_SFC_TR</attrlabl>
+<attrdef>Runway Surface treatment</attrdef>
+<attrdefs>FAA</attrdefs>
+<attrdomv>
+<edom>
+<edomv>GRVD</edomv>
+<edomvd>Saw-cut or plastic grooved</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>PFC</edomv>
+<edomvd>Porous friction course</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>AFSC</edomv>
+<edomvd>Aggregate friction seal coat</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>RFSC</edomv>
+<edomvd>Rubberized friction seal coat</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>WC</edomv>
+<edomvd>Wire comb or wire tine</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>NONE</edomv>
+<edomvd>No special surface treatment</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PAV_CLASS_</attrlabl>
+<attrdef>Pavement Classification Number (PCN):   A rating system that expresses the relative load carrying capacity of a pavement in terms of a standard single wheel load.</attrdef>
+<attrdefs>FAA</attrdefs>
+<attrdomv>
+<udom>A Numerical Value</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>RWY_LIGHTS</attrlabl>
+<attrdef>Runway lights edge intensity</attrdef>
+<attrdefs>FAA</attrdefs>
+<attrdomv>
+<edom>
+<edomv>HIGH</edomv>
+<edomvd>High</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>MED</edomv>
+<edomvd>Medium</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>LOW</edomv>
+<edomvd>Low</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>NSTD</edomv>
+<edomvd>Non-standard lighting system</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>NONE</edomv>
+<edomvd>No edge lighting system</edomvd>
+<edomvds>FAA</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>STFIPS</attrlabl>
+<attrdef>The 2-character FIPS code of the State or State equivalent</attrdef>
+<attrdefs>RITA/BTS</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas, FIPS 5-2.</codesetn>
+<codesets>U.S. Department of Commerce, National Institute of Standards and Technology</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ST_POSTAL</attrlabl>
+<attrdef>Runway state post office code</attrdef>
+<attrdefs>FAA</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>List of Official U.S. State and Territory Postal Abbreviations</codesetn>
+<codesets>U.S. Post Office</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>VERSION</attrlabl>
+<attrdef>The VERSION is a 2-digit number that will be incremented for all records in the database whenever a new release is distributed.</attrdef>
+<attrdefs>RITA/BTS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>00</rdommin>
+<rdommax>99</rdommax>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape_Leng</attrlabl>
+</attr>
+</detailed>
+<overview></overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Research and Innovative Technology Administration&apos;s Bureau of Transportation Statistics (RITA/BTS)</cntorg>
+<cntper>Geospatial Information Program</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>Research and Innovative Technology Administration&apos;s Bureau of Transportation Statistics (RITA/BTS)</address>
+<address>400 7th Street, SW Room 4117</address>
+<city>Washington</city>
+<state>District of Columbia</state>
+<postal>20590</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>202-366-DATA</cntvoice>
+<cntfax>202-366-3640</cntfax>
+<cntemail>answers@bts.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>National Transportation Atlas Databases (NTAD) 2006</resdesc>
+<distliab>None</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ESRI Shapefile</formname>
+<formverd>2006</formverd>
+<filedec>No compression applied.  However, if using digital transfer online option, note access instructions.</filedec>
+<transize>2.113</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<accinstr>Due to a significant reduction in resources, the NTAD is no longer available for download.  The NTAD cdrom can be ordered from the online bookstore at www.bts.gov.  If resources allow, download applications will be restored.  When the applications become available, they will be found at www.bts.gov/programs/geographic_information_services.</accinstr>
+</onlinopt>
+<offoptn>
+<offmedia>CD-ROM</offmedia>
+<reccap>
+<recden>650</recden>
+<recdenu>megabytes</recdenu>
+</reccap>
+<recfmt>ISO 9660</recfmt>
+</offoptn>
+</digtopt>
+</digform>
+<fees>None</fees>
+<ordering>Call 202-366-DATA, fax 202-366-3640, or E-mail (answers@bts.gov) RITA/BTS to request the National Transportation Atlas Databases (NTAD) 2006 CD-ROM.  This and other RITA/BTS products may be ordered from the RITA/BTS Internet website (http://www.bts.gov/programs/geographic_information_services/).</ordering>
+</stdorder>
+<techpreq>Software that can process GIS files.</techpreq>
+<availabl>
+<timeinfo>
+<sngdate>
+<caldate>2006</caldate>
+</sngdate>
+</timeinfo>
+</availabl>
+</distinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Louisiana Oil Spill Coordinator&apos;s Office</cntorg>
+<cntper>David Gisclair</cntper>
+</cntorgp>
+<cntpos>Technical Assistance Program (TAP) Director</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Louisiana Oil Spill Coordinator&apos;s Office</address>
+<address>Office of the Governor</address>
+<address>P.O. Box 94095</address>
+<city>Baton Rouge</city>
+<state>Louisiana</state>
+<postal>70804</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(225) 219-5800</cntvoice>
+<cntfax>(225) 219-5802</cntfax>
+<cntemail>david.gisclair@la.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>public_use_airport_runway_BTS_2006</resdesc>
+<distliab>
+The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided &quot;as is&quot; without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose.  The entire risk as to the quality and performance of the data is assumed by the user.  No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed.  In no event shall the Louisiana Oil Spill Coordinator&apos;s Office (LOSCO) be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The LOSCO does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form.
+
+These data have been developed from the best available sources.  Although efforts have been made to ensure that the data are accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with
+respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to these data.  The user is responsible for understanding the accuracy limitations of the data provided herein.  The burden for determining fitness for use lies entirely with the user.  The user should refer to the accompanying metadata notes for a description of the data and data development procedures.
+
+Although these data have been processed successfully on computers at the LOSCO, no guarantee, expressed or implied, is made by LOSCO regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty.  Distribution of these data is intended for information purposes and should not be considered authoritative for navigational, engineering, legal and other site-specific uses.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ESRI Shapefile</formname>
+<formverd>2006</formverd>
+<filedec>No compression applied.  However, if using digital transfer online option, note access instructions.</filedec>
+<transize>2.113</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://lagic.lsu.edu/data/losco/public_use_airport_runway_BTS_2006.zip</networkr>
+</networka>
+</computer>
+<accinstr>Due to a significant reduction in resources, the NTAD is no longer available for download.  The NTAD cdrom can be ordered from the online bookstore at www.bts.gov.  If resources allow, download applications will be restored.  When the applications become available, they will be found at www.bts.gov/programs/geographic_information_services.</accinstr>
+</onlinopt>
+<offoptn>
+<offmedia>CD-ROM</offmedia>
+<reccap>
+<recden>650</recden>
+<recdenu>megabytes</recdenu>
+</reccap>
+<recfmt>ISO 9660</recfmt>
+</offoptn>
+</digtopt>
+</digform>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ESRI Shapefile</formname>
+<formverd>2006</formverd>
+<filedec>No compression applied.  However, if using digital transfer online option, note access instructions.</filedec>
+<transize>2.113</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<accinstr>Due to a significant reduction in resources, the NTAD is no longer available for download.  The NTAD cdrom can be ordered from the online bookstore at www.bts.gov.  If resources allow, download applications will be restored.  When the applications become available, they will be found at www.bts.gov/programs/geographic_information_services.</accinstr>
+</onlinopt>
+<offoptn>
+<offmedia>CD-ROM</offmedia>
+<reccap>
+<recden>650</recden>
+<recdenu>megabytes</recdenu>
+</reccap>
+<recfmt>ISO 9660</recfmt>
+</offoptn>
+</digtopt>
+</digform>
+<digform>
+<digtinfo>
+<formname>SHP and MDB</formname>
+<formspec>ESRI Shapefile and Geodatabase (9.1)</formspec>
+</digtinfo>
+<digtopt>
+<offoptn>
+<offmedia>DVD-ROM</offmedia>
+</offoptn>
+</digtopt>
+</digform>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20060411</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Research and Innovative Technology Administration&apos;s Bureau of Transportation Statistics (RITA/BTS)</cntorg>
+<cntper>Geospatial Information Program</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>Research and Innovative Technology Administration&apos;s Bureau of Transportation Statistics (RITA/BTS)</address>
+<address>400 7th Street, SW Room 4117</address>
+<city>Washington</city>
+<state>District of Columbia</state>
+<postal>20590</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>202-366-DATA</cntvoice>
+<cntfax>202-366-3640</cntfax>
+<cntemail>answers@bts.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>None</metac>
+<metuc>None</metuc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>
